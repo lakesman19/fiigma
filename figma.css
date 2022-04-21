@@ -1,0 +1,257 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+button{
+    background-color: transparent !important;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .menu {
+    border: 2px solid red;
+} */
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+.menu ul li {
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#20262A;
+    font-weight: 450;
+    font-family: 'Circular Std', sans-serif;
+}
+.buttton{
+    border:2px solid #00B6F0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+} 
+button{
+    border:  none;
+}
+.log{
+    color: #00B6F0;
+    text-decoration: none;
+}
+.buttton:hover{
+    background-color: #00B6F0;
+}
+button .log:hover{
+    color:#FFFFFF;
+}
+.hero-section{
+    /* background-color: #FFFFFF; */
+    background:linear-gradient(hsla(0,0%,100%,.22) 25%,rgba(0,225,199,.281) 75%);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid red;
+   text-align: center;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+.most{
+    /* text-align: center; */
+    font-family: 'Circular Std', serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.light{
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    /* width: 40%; */
+    font-size: 42px;
+    /* text-align: center; */
+    color: #112D57;
+}
+.img-case{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: -50px;
+}
+.buton{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 90px;
+    background-color: #00B6F0;
+}
+.Get{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 10px;
+}
+.buton:hover  {
+    background-color: #112D57;
+}
+.butt{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 90px;
+    background-color:rgba(255, 255, 255, 1);
+}
+.Try{
+    color:black;
+    text-decoration: none;
+    font-size: 10px;
+}
+.butt a:hover{
+    color: #00B6F0;
+}
+.hero-cont{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 40px;
+}
+.yellow > img{
+    width: 250px; 
+}
+.blue{
+    /* position: absolute;
+    left: 0;
+    bottom: 20%; */
+}
+.blue > img{
+    width: 250px;}
+
+.img-case img{
+    width: 90%;
+}
+/* .hero__bg{
+   position:absolute;
+    /* overflow: hidden; 
+   display: flex;
+}
+.yellow{
+    right: 0;
+    bottom: -200px */
+}
+.hero2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+.jut-word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.buttons1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.jut h1{
+    color: #F3CD03;
+    font-family: 'Circular Std', sans-serif;
+    font-weight:300;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.jut h2{
+    color: #20262A;
+    /* font-family:'Circular Std', sans-serif; */
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.jut p {
+    /* font-family: 'Circular Std', serif; */
+    text-transform: capitalize;
+    font-size: 25px; 
+} 
+.buton2{
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 90px;
+        background-color: #00B6F0;
+}
+.buton2:hover  {
+    background-color: #112D57;
+}
+.butt2{
+    border-radius: 15px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 90px;
+        border: 1px solid #00B6F0;
+}
+button .see:hover{
+    font-weight:bold ;
+}
+.down{
+    color:#FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.see{
+        color: #00B6F0;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
