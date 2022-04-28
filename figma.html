@@ -5,105 +5,264 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="figma.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>fiigma</title>
 </head>
 <body>
-    <section class="figma">
+    <input type="checkbox" id=" checked">
+    <!-- header section -->
+    <section id="header">
         <div class="navbar">
             <div class="logo">
                 <a href=""><img src="./images/logo.png" alt=""></a>
-             </div>
-             <div class="menu">
+            </div>
+            <div class="menu">
                 <ul>
                  <li><a href="#">Home</a></li>
                  <li><a href="#">Product</a><li>
                  <li><a href="#">About</a></li>
                  <li><a href="#">Contact</a></li>
                 </ul>
-             </div>
-             <div class="buttton">
+            </div>
+            <div class="buttton">
                 <button>
                     <a href="#" type="button" class="log">Login</a>
                 </button>
-             </div>
-           </div>
-        </div>
-        <div class="hero-section">
-            <div class="hero-cont">
-                <div class="hero-text">
-                   <h1 class="light">
-                    lighting fast prototyping
-                   </h1>
-                   <p class="most">
-                    Most calendars are designed for teams. Slate is 
-                    designed for freelancers.
-                   </p>
-               </div>
-               <div class="buttons">
-                  <div class="buton">
-                     <button>
-                         <a href="#" type="button" class="Get">Get started</a>
-                     </button>
-                  </div>
-                  <div class="butt">
-                     <button>
-                         <a href="#" type="button" class="Try">Try For Free</a>
-                     </button>
-                  </div>
-                </div>
-           </div>
-        </div>
-        <!-- <div class="hero__bg">
-            <div class="yellow">
-                <img src="./images/Vector (8).png" alt="">
+                <!-- side bar -->
+               <label for="checked" class="bar">
+                  <span class="fa fa-bars" aria-hidden="true" id="bars"></span>
+                  <span class="fa fa-times" id="times"></span>
+               </label>
+               <!-- end of side bar -->
             </div>
-            <div class="blue">
-                <img src="./images/Vector (7).png" alt="">
-             </div>
-          </div>
-        </div> -->
-        <div class="img-case">
-            <img src="/images/Navigation BG.png" alt="">
-            <img src="/images/Dashboard1.png" alt="">
-        </div> 
-        <div class="hero2">
-          <div class="jut">
-         <div class="jut-word">
-            <h1>just type</h1>
-            <h2>fastest way to navigate</h2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
-         </div>
-            <div class="buttons1">
-                <div class="buton2">
+        </div>
+    </section>
+    <!-- End header section  -->
+
+    <!-- hero section -->
+    <section id="hero-section">
+        <div class="hero cta">
+            <div class="hero text">
+                <h1 class="light">
+                lighting fast prototyping
+                </h1>
+                <p class="most">
+                Most calendars are designed for teams. Slate is 
+                designed for freelancers.
+                </p>
+            </div>
+            <div class="buttons">
+                <div class="buton">
                    <button>
-                       <a href="#" type="button" class="down">download</a>
+                       <a href="#" type="button" class="Get">Get started</a>
                    </button>
                 </div>
-                <div class="butt2">
+                <div class="butt">
                    <button>
-                       <a href="#" type="button" class="see">see Slate</a>
+                       <a href="#" type="button" class="Try">Try For Free</a>
                    </button>
-                </div>
-          </div>  
-          </div>
-       </div>
-       <div class="opentype">
-           <div class="open">
-               <div class="openwords">
-                   <div class="wrd">
-                    <h1 class="head">
-                OpenType features
-                    </h1>
-                    <p class="open-type">
-                Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
-                    </p>
-                  </div>
-                </div>
-                <div class="openimg">
-                   <img src="/images/screen.png" alt="">
                 </div>
            </div>
+        </div>
+        <div class="yellow__section">
+            <img src="./images/Vector (8).png" alt="">
+        </div>
+        <div class="blue">
+             <img src="./images/Vector (7).png" alt="">
        </div>
     </section>
+    <section id="img-case">
+      <div class="img-case">
+        <img src="/images/Navigation BG.png" alt="">
+         <img src="/images/Dashboard1.png" alt="">
+      </div> 
+   </section>
+    <!-- End imgcase -->
+    <!-- just section -->
+    <section id="just__section">
+        <div class="just">
+            <div class="just-text">
+                <h1>just type</h1>
+                <h2>fastest way to navigate</h2>
+                <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>  
+            </div>
+            <div class="just-buttons">
+                <div class="buton2">
+                    <button>
+                        <a href="#" type="button" class="down">download</a>
+                    </button>
+                </div>
+                <div class="butt2">
+                    <button>
+                        <a href="#" type="button" class="see">see Slate</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end just section -->
+    <!-- open type -->
+    <section id="open_type">
+        <div class="open_type">
+            <div class="open">
+                <h1>open type features</h1>
+                <p> Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+                <div class="learn1">
+                <a href="#">learn more</a></div>
+            </div>
+            <div class="type">
+                <img src="/images/screen.png" alt="">
+            </div>
+        </div>
+        <div class="vector1">
+            <img src="/images/Vector (9).png" alt="">
+        </div>
+        <div class="blue2">
+            <img src="./images/Vector (10).png" alt="">
+      </div>
+    </section>
+    <!-- end opentype -->
+    <!-- variable fonts -->
+    <section id="variable_fonts">
+        <div class="variable-fonts">
+            <div class="variable">
+                <img src="/images/screen (1).png" alt="">
+            </div>
+            <div class="fonts">
+                <h2>Variable fonts</h2>
+                <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
+                <div class="learn2">
+                    <a href="#">learn more</a></div>
+            </div>
+        </div>
+        <div class="vector2">
+            <img src="/images/Vector.png" alt="">
+        </div>
+        <div class="vector11">
+            <img src="/images/Vector (11).png" alt="">
+        </div>
+    </section>
+    <!-- end of variable fonts -->
+    <!-- rethink -->
+    <section id="rethink">
+        <div class="rethink">
+            <div class="re">
+                <h3 class="think">A rethink of how we work</h3>
+                <p class="being">Being a freelancer is a rollercoaster of emotions. We built Slate to keep your</p> 
+            </div>
+            <div class="roller">
+                <div class="white">
+                    <div class="blues"></div>
+                </div>
+                <div class="digits">
+                    <P class="p">Facebook</P>
+                    <p class="3">35,929</p>
+                </div>
+            </div>
+            <div class="rethink_buttons">
+                <button>
+                  <a href="#" type="button" class="started">Get started</a>
+                </button>
+              </div>
+        </div>
+    </section>
+    <!-- end rethink -->
+    <!-- testimony -->
+    <section id="testimony">
+        <div class="testimony">
+            <h4>testimonies</h4>
+            <div class="ibm">
+                <img src="/images/Vector (1).png" alt="">
+            </div>
+            <p class="freelancer">Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business less stressful. We'd love to show you what we're building...</p>
+            <div class="designer">
+                <div class="desiimg">
+                    <img src="/images/Ellipse 2.png" alt="">
+                </div>
+                <div class="developer">
+                    <p class="es">esther web</p>
+                    <p class="de">designer</p>
+                </div>
+            </div>
+            <div class="testimony-button">
+                <button>
+                  <a href="#" type="button" class="test">all testimonies</a>
+                </button>
+            </div>
+        </div>
+        <div class="vector3">
+            <img src="/images/Vector (2).png" alt="">
+            </div>
+            <div class="vector4">
+            <img src="/images/Vector (3).png" alt="">
+            </div>
+    </section>
+    <!-- end  testimony -->
+    <!-- pricing -->
+    <section id="pricing">
+        <div class="pricing">
+            <div class="price">
+               <h5>pricing</h5>
+               <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+            </div>
+            <div class="trial">
+                <p class="days">30-days free trial</p>
+                <div class="amount">
+                    <div>
+                    <p class="fifty">$51</p>
+                    </div>
+                    <div class="months">
+                    <p class="month">/montly per</p>
+                    <p class="user">user</p>
+                    </div>
+              </div>
+              <p class="calender">Most calendars are designed for teams.</p>
+                <div class="price_button">
+                  <button>
+                    <a href="#" type="button" class="test">Get started</a>
+                  </button>
+                </div>
+           </div>  
+        </div>
+    </section>
+    <!-- end pricing -->
+    <!-- focus -->
+     <section id="focus">
+         <div class="focus">
+            <div class="we">
+               <p>We focus on ergonomic meeting</p>  
+            </div>
+            <div class="lastp">
+                <p>Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business building...</p>
+                <p> Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business building...</p>
+                <div class="focus_button">
+                 <button>
+                   <a href="#" type="button" class="test">Get started</a>
+                 </button>
+               </div>
+            </div>
+         </div>
+         <div class="navbar2">
+            <div class="logo">
+                <a href=""><img src="./images/logo.png" alt=""></a>
+                <p>Just type what's on your mind</p>
+           </div>
+           <div class="menu2">
+                <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Product</a><li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+           <div class="socials">
+                <a href=""><img src="/images/Vector (6).png" alt=""></a> 
+                <a href=""><img src="/images/Vector (5).png" alt=""></a>
+                <a href=""><img src="/images/Vector (4).png" alt=""></a>
+            </div>
+         </div>
+      </section>
+    <!-- end focus -->
 </body>
 </html>
